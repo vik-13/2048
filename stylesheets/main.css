@@ -1,0 +1,186 @@
+header{
+    height: 100px;
+}
+#app{
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    height: 400px;
+    background: #2A2C2B;
+    border: 20px solid #1E1E20;
+    border-radius: 10px;
+}
+
+.grid-row{
+
+}
+.grid-cell{
+    background: #374140;
+    width: 85px;
+    height: 85px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+    border-radius: 10px;
+}
+.grid-cell:last-child{
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.number{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    border-radius: 10px;
+    font-size: 48px;
+    text-align: center;
+    line-height: 85px;
+    color: #1E1E20;
+    transition: .5s ease 0s;
+}
+
+.number-2{
+    background: #FFFF9D;
+}
+.number-4{
+    background: #FFF0A5;
+}
+.number-8{
+    background: #FFB03B;
+}
+.number-16{
+    background: #BEEB9F;
+}
+.number-32{
+    background: #79BD8F;
+}
+.number-64{
+    background: #00A388
+}
+.number-128{
+    background: #468966;
+}
+.number-256{
+    background: #FF6138
+}
+.number-512{
+    background: #B64926;
+}
+.number-1024{
+    background: #8E2800;
+    line-height: 72px;
+}
+.number-2048{
+    background: #4C1B1B;
+    line-height: 72px;
+}
+
+.number-position-1-1{
+    top: 0;
+    left: 0;
+}
+.number-position-1-2{
+    top: 0;
+    left: 105px;
+}
+.number-position-1-3{
+    top: 0;
+    left: 210px;
+}
+.number-position-1-4{
+    top: 0;
+    left: 315px;
+}
+.number-position-2-1{
+    top: 105px;
+    left: 0;
+}
+.number-position-2-2{
+    top: 105px;
+    left: 105px;
+}
+.number-position-2-3{
+    top: 105px;
+    left: 210px;
+}
+.number-position-2-4{
+    top: 105px;
+    left: 315px;
+}
+.number-position-3-1{
+    top: 210px;
+    left: 0;
+}
+.number-position-3-2{
+    top: 210px;
+    left: 105px;
+}
+.number-position-3-3{
+    top: 210px;
+    left: 210px;
+}
+.number-position-3-4{
+    top: 210px;
+    left: 315px;
+}
+.number-position-4-1{
+    top: 315px;
+    left: 0;
+}
+.number-position-4-2{
+    top: 315px;
+    left: 105px;
+}
+.number-position-4-3{
+    top: 315px;
+    left: 210px;
+}
+.number-position-4-4{
+    top: 315px;
+    left: 315px;
+}
+
+.number-2:before{
+    content: "2";
+}
+.number-4:before{
+    content: "4";
+}
+.number-8:before{
+    content: "8";
+}
+.number-16:before{
+    content: "16";
+}
+.number-32:before{
+    content: "32";
+}
+.number-64:before{
+    content: "64";
+}
+.number-128:before{
+    content: "128";
+    color: #ffffff;
+    font-size: 42px;
+}
+.number-256:before{
+    content: "256";
+    color: #ffffff;
+    font-size: 42px;
+}
+.number-512:before{
+    content: "512";
+    color: #ffffff;
+    font-size: 42px;
+}
+.number-1024:before{
+    content: "1024";
+    color: #ffffff;
+    font-size: 32px;
+}
+.number-2048:before{
+    content: "2048";
+    color: #ffffff;
+    font-size: 32px;
+}
